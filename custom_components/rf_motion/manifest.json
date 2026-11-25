@@ -1,0 +1,13 @@
+{
+  "domain": "rf_motion",
+  "name": "RF Motion (Zigbee bulbs)",
+  "codeowners": ["@LeonardoPahim"],
+  "config_flow": true,
+  "dependencies": ["zha"],
+  "documentation": "https://github.com/LeonardoPahim/ha-rf-motion",
+  "integration_type": "helper",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/LeonardoPahim/ha-rf-motion/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

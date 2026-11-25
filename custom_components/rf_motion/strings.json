@@ -1,0 +1,39 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "RF Motion (Zigbee bulbs)",
+        "description": "Detects motion from signal-strength changes of ZHA bulbs. Pick at least 3 mains-powered bulbs in the same room.",
+        "data": {
+          "name": "Name",
+          "lights": "ZHA lights",
+          "start": "Active from",
+          "end": "Active until",
+          "hold_minutes": "Turn off after no motion for",
+          "threshold_db": "Disturbance threshold",
+          "events_required": "Disturbances needed to trigger",
+          "event_window_seconds": "…within",
+          "poll_seconds": "Poll interval per bulb"
+        }
+      }
+    },
+    "error": { "no_lights": "Select at least one light." }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "RF Motion options",
+        "data": {
+          "lights": "ZHA lights",
+          "start": "Active from",
+          "end": "Active until",
+          "hold_minutes": "Turn off after no motion for",
+          "threshold_db": "Disturbance threshold",
+          "events_required": "Disturbances needed to trigger",
+          "event_window_seconds": "…within",
+          "poll_seconds": "Poll interval per bulb"
+        }
+      }
+    }
+  }
+}
